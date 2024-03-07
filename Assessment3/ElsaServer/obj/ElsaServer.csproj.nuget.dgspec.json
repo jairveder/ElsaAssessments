@@ -1,0 +1,101 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\vederj\\Downloads\\ElsaAssessments\\Assessment3\\ElsaServer\\ElsaServer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\vederj\\Downloads\\ElsaAssessments\\Assessment3\\ElsaServer\\ElsaServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vederj\\Downloads\\ElsaAssessments\\Assessment3\\ElsaServer\\ElsaServer.csproj",
+        "projectName": "ElsaServer",
+        "projectPath": "C:\\Users\\vederj\\Downloads\\ElsaAssessments\\Assessment3\\ElsaServer\\ElsaServer.csproj",
+        "packagesPath": "C:\\Users\\vederj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vederj\\Downloads\\ElsaAssessments\\Assessment3\\ElsaServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vederj\\Downloads\\Elsa\\NuGet.Config",
+          "C:\\Users\\vederj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://f.feedz.io/elsa-workflows/elsa-3/nuget/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Elsa": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Elsa.CSharp": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Elsa.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Elsa.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Elsa.Identity": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Elsa.Javascript": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Elsa.Scheduling": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Elsa.Workflows.Api": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
